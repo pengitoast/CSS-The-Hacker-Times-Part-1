@@ -47,47 +47,48 @@ body {
     font-size: 52pt;
 }
 
-.moreArticles span {
+#moreArticles section {
     display: inline-block;
+    width: 40%;
+    margin: auto;
 }
 
 #mainArticleTitle  {
     font-family: "Roboto Slab";
+    font-size: 25pt;
 }
 
 #main-article {
     font: "Source Sans Pro";
-    padding: 3em;
     text-align: justify;
     margin: auto;
-    width: 700px;
-    border-radius: 25%;
     box-shadow: #ddd;
+    padding: 3em;
 }
 
 #subArticleTitle {
     font-family: "Roboto Slab";
     padding: 1em 1em 0em 1em;
     text-align: justify;
-    font-size: 15pt;
+    font-size: 20pt;
 }
 
 #subArticle1 {
-    width: 700px;
     margin: auto;
     text-align: center;
     font: "Source Sans Pro";
-    border-radius: 25%;
     box-shadow: #ddd;
+    padding: 3em;
+    font-size: 15pt;
 }
 
 #subArticle2 {
-    width: 700px;
     margin: auto;
     text-align: center;
     font: "Source Sans Pro";
-    border-radius: 25%;
     box-shadow: #ddd;
+    padding: 3em;
+    font-size: 15pt;
 }
 
 #image1 {
@@ -95,11 +96,11 @@ body {
 }
 
 #subImg1 {
-    width: 50%;
+    width: 100%;
 }
 
 #subImg2 {
-    width: 50%;
+    width: 100%;
 }
 
 nav {
@@ -132,5 +133,15 @@ hr {
 }
 
 .bodyFont {
-   font-family: "Source Sans Pro"; 
+   font-family: "Source Sans Pro";
+}
+
+.mainBodyFont {
+    font-family: "Source Sans Pro";
+}
+
+.author {
+    color: #dd3232;
+    font-family: "Abril Fatface";
+    font-size: 12pt;
 }
